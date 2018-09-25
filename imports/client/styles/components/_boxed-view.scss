@@ -2,12 +2,12 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    background: $boxed-view-overlay-bg;
     width: 100vw;
     height: 100vh;
 }
 
 .boxed-view__box {
+    border: 1px solid $boxed-view-border-color;
     background: $boxed-view-bg;
     padding: 2.4rem;
     text-align: center;

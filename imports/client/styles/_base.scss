@@ -1,8 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
+    background-color: $body-background-color;
+    color: $body-default-color;
     font-family: Helvetica, Arial, sans-serif;
     font-size: $base-font-size;
 }
@@ -22,7 +28,7 @@ p {
 }
 
 a {
-    color: black;
+    color: $body-default-color;
 }
 
 input[type=text], input[type=email], input[type=password] {
