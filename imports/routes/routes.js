@@ -30,7 +30,6 @@ export const globalOnChange = (prevState, nextState) => {
 export const globalOnEnter = (nextState) => {
   const lastRoute = nextState.routes[nextState.routes.length - 1];
   Session.set('currentPagePrivacy', lastRoute.privacy);
-  console.log('globalOnEnter');
 };
 export const routes = (
   <Router history={browserHistory}>
